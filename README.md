@@ -39,6 +39,7 @@ Bem-vindo ao projeto SóCarrão.com! Neste repositório, você encontrará o có
 O objetivo deste projeto é desenvolver uma aplicação web que consuma um JSON contendo dados de aproximadamente 50 veículos da nossa base de dados e apresente-os em formato de cards. A listagem de veículos deverá respeitar o padrão de marca e modelo, além de ser responsiva e paginada. O usuário também terá a opção de escolher a forma de apresentação dos cards (horizontal ou vertical) e definir quantos cards deseja ver por página.
 ***
 ## 2. Histórias de Usuários 
+- Como usuário, quero visualizar as fotos do carro.
 - Como usuário, quero poder pesquisar carros por marca.
 - Como usuário, quero poder ver a quantidade de carros por página.
 - Como usuário, quero visualizar o layout em horizontal ou vertical.
