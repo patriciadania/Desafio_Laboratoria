@@ -7,8 +7,7 @@ Bem-vindo ao projeto SóCarrão.com! Neste repositório, você encontrará o có
   
   <br>
   <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
-    <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://user-images.githubusercontent.com/120285942/236062287-09f1bc78-7e35-45bc-b420-17b08bd4f81d.svg">
-     <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+   
   <img align="center" alt="git" height="30" width="40" src="https://camo.githubusercontent.com/900baefb89e187c8b32cdbb3b440d1502fe8f30a1a335cc5dc5868af0142f8b1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667" />
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="vscode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
@@ -46,7 +45,7 @@ O objetivo deste projeto é desenvolver uma aplicação web que consuma um JSON 
 
  ***
  ## 3. Funcionalidades
-em formato de cards, seguindo o padrão de exibição discursiva da marca e do modelo. Quando o espaço no card for limitado, a marca será ocultada, exibindo apenas o modelo. Caso ainda falte espaço para o modelo, será utilizada uma elipse para sua representação.
+Listagem de Veículos: Os veículos disponíveis serão apresentados em formato de cards, seguindo o padrão de exibição discursiva da marca e do modelo. Quando o espaço no card for limitado, a marca será ocultada, exibindo apenas o modelo. Caso ainda falte espaço para o modelo, será utilizada uma elipse para sua representação.
 
 Responsividade: Os cards se adaptarão aos três principais breakpoints (320px, 375px e 420px), proporcionando uma experiência agradável em dispositivos móveis.
 
@@ -72,7 +71,6 @@ Detalhes do Veículo: Cada card exibirá as seguintes informações sobre o veí
   <img width="500" src="https://github.com/patriciadania/Desafio_Laboratoria/assets/120285942/7573c17a-3209-49c6-bfd5-ba9c71a9c11a"/><br>
     Tela : Card carros na vertical.  
 
-     <br>
 </div>
 <div align="center">
   <img width="500" src="https://github.com/patriciadania/Desafio_Laboratoria/assets/120285942/6f00999d-9f2b-4fe3-8b10-0f01c8e9f3f3"/><br>
