@@ -69,5 +69,5 @@ const CarFilter = ({ filtro, onFilterChange, onCarsPerPageChange, carsPerPage })
     </div>
   );
 };
-
+//
 export default CarFilter;
