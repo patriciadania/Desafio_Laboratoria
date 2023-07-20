@@ -85,7 +85,7 @@ Detalhes do Veículo: Cada card exibirá as seguintes informações sobre o veí
  ## 5. Considerações 
 Esperamos que este projeto atenda aos requisitos do SóCarrão.com e que proporcione uma ótima experiência de usuário, especialmente para aqueles que acessam o portal através de dispositivos móveis. Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
-Agradecemos o interesse em nosso projeto e desejamos uma ótima experiência de navegação!
+Agradecemos o interesse em nosso projeto e desejo uma ótima experiência de navegação!
    ***
 
 
