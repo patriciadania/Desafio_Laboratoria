@@ -1,9 +1,14 @@
 .car-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
   }
-  
+ 
   .car-info {
     flex-grow: 1;
     display: flex;
@@ -41,13 +46,6 @@
     justify-content: center;
   }
   
-  .car-card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 250px;
-  }
   
   .car-card img {
     width: 100%;
@@ -97,4 +95,92 @@
     font-weight: bold;
     font-size: 16px;
   }
+
+  .car-card.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 30px;
+  }
+
   
+  .car-card.horizontal .car-button{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+  .car-card.horizontal img {
+    width: 400px; 
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .car-card.horizontal .car-info {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px; 
+  }
+  .car-card.horizontal .car-info p{
+    margin: 0;
+    border: 1px solid #dbb240;
+    border-radius: 4px;
+    background-color: #f9f4d4;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+  }
+  .car-card.horizontal .car-button{
+    align-items: center;
+  }
+
+  @media (max-width: 320px) {
+    
+    .car-card.horizontal {    
+      width: 90%;
+      height: 150px;
+     
+    }
+  
+    .car-card.horizontal img {
+      width: 50px; 
+      height: 10px; 
+    }
+  
+    .car-card.horizontal .car-info p {
+      padding: 0px;
+      font-size: 10px;
+    }
+    .car-card.horizontal .car-button {
+      padding: 2px;
+      font-size: 10px;
+    }
+    .car-card.horizontal  .car-location{
+      font-size: 10px;
+      margin: 5px;
+    }
+    .car-card.horizontal .car-info h2 {
+      font-size: 15px;
+    }
+  }
+
+  
+  @media (max-width: 670px) {
+    
+  .car-card.horizontal img {
+    width: 200px; 
+    height: 50%;
+    object-fit: cover;
+  }
+  .car-card.horizontal .car-info {
+    margin: 0;
+   font-size: 10px;
+
+  }
+}
+ 

@@ -6,18 +6,16 @@ const StyledFormControl = styled(FormControl)(({ theme }) => ({
   margin: theme.spacing(1),
   minWidth: 20,
   backgroundColor: 'rgb(51, 49, 49)',
-  
 }));
 
-
-const StyledSelect = styled(Select)(({ theme }) => ({
+const StyledSelect = styled(Select)(() => ({
   borderRadius: '10px',
   border: 'solid ',
   backgroundColor: 'rgb(51, 49, 49)',
-  
+  color: '#fff',
 }));
 
-const StyledMenuItem = styled(MenuItem)(({ theme }) => ({
+const StyledMenuItem = styled(MenuItem)(() => ({
   padding: '5px 10px',
 }));
 
@@ -71,5 +69,5 @@ const CarFilter = ({ filtro, onFilterChange, onCarsPerPageChange, carsPerPage })
     </div>
   );
 };
-
+//
 export default CarFilter;

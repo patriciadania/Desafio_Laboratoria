@@ -9,6 +9,11 @@ const App = () => {
   const [filteredCars, setFilteredCars] = useState(carData);
   const [carsPerPage, setCarsPerPage] = useState(5);
   const [currentPage, setCurrentPage] = useState(1);
+  const [layout, setLayout] = useState('vertical');
+
+  const LayoutChange = (selectedLayout) => {
+    setLayout(selectedLayout);
+  };
 
   const FilterChange = (filter) => {
     let filteredCars = carData.filter((car) =>
@@ -50,13 +55,14 @@ const App = () => {
   return (
     <div className="App">
       <Header
+       onLayoutChange={LayoutChange}
         onFilterChange={FilterChange}
         onCarsPerPageChange={CarsPerPageChange}
         carsPerPage={carsPerPage}
       />
-      <div className="car-list">
-        {paginatedCars().map((car) => (
-          <CarCard key={car.veiculo_id} car={car} />
+       <div className={`car-list ${layout === 'horizontal' ? 'horizontal' : ''}`}>
+        {paginatedCars().map((car, index) => (
+          <CarCard key={index} car={car} layout={layout} />
         ))}
       </div>
       <div className="pagination">
