@@ -1,11 +1,31 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Card.css';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const CarCard = ({ car, layout }) => {
+  const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(0);
+
+  const PhotoChange = (selectedIndex) => {
+    setSelectedPhotoIndex(selectedIndex);
+  };
   return (
     <div className={`car-card ${layout === 'horizontal' ? 'horizontal' : 'vertical'}`}>
       <div className="car-location">{car.veiculo_cidade}</div>
-      <img src={car.veiculo_foto[0]} alt={car.veiculo_modelo} />
+      <Carousel
+        showArrows={true}
+        showStatus={false}
+        showThumbs={false}
+        infiniteLoop={true}
+        selectedItem={selectedPhotoIndex}
+        onChange={PhotoChange}
+      >
+        {car.veiculo_foto.map((photo, index) => (
+          <div key={index}>
+            <img src={photo} alt={`Photo ${index}`} />
+          </div>
+        ))}
+      </Carousel>
       <div className="car-info">
         <h2>{car.veiculo_marca}</h2>
         <p>{car.veiculo_modelo}</p>
