@@ -2,4 +2,32 @@
   text-align: center;
   margin: 0px;
 }
+/* App.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  background-color: #ad900d;
+  color: #000000;
+  border: solid 1px #dbb240;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #dbb240;
+}
+
+.pagination span {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
 

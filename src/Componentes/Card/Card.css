@@ -164,7 +164,7 @@
   @media (max-width: 380px) {
     .car-card.vertical {
       width: 100%; 
-      height: 200px; 
+   
     }
   
     .car-card.horizontal {
@@ -197,9 +197,9 @@
 }
  
 @media (max-width: 300px) {
-  .car-card.vertical .car-info {
+  .car-card.vertical .car-info p {
     width: 100%; 
-    height: 200px; 
+
   }
 
   

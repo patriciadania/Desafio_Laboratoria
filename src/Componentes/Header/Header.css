@@ -10,6 +10,12 @@
   background-color: rgb(51, 49, 49);
   color: white;
 }
+.layout-select {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center; 
+}
 
 .logo {
   max-width: 200px;
@@ -42,7 +48,7 @@
     margin-bottom: 16px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
