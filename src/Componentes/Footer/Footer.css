@@ -1,14 +1,35 @@
 .footer {
-  padding: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
   background-color: rgb(58, 55, 55);
   color: white;
+  left: 0;
+  bottom: 0;
+  
+
 }
 
-
+.developer {
+  color: #FFF;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 12px;
+}
+.back-to-top-button {
+  background-color: #918b89;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
 @media (max-width: 320px) {
   .footer {
     text-align: center;
     margin-bottom: 0px;
- 
+  }
+  .developer {
+    font-size: 10px;
   }
 }
